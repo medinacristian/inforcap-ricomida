@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap");
+
+
+body {
+  --nav-dark: #373a3c;
+  --bg-subscribe: #DC3545;
+  --bg-footer: #343a40;
+
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.bg-footer {
+  background-color: var(--bg-footer);
+}
+
+/* Navbar */
+nav {
+  background-color: var(--nav-dark);
+}
+nav .navbar-brand,
+footer .text-ricomida {
+  font-family: "Lobster", cursive;
+  font-size: 2.3rem;
+}
+
+/* Carousel */
+#carousel {
+  margin-bottom: 4.375rem;
+}
+.carousel .carousel-indicators button {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+.carousel-indicators {
+  bottom: -70px;
+}
+
+/* Section Receta */
+#receta ul>li {
+  list-style: none;
+}
+#receta h4 {
+  border-bottom: 1.5px solid currentColor;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+#receta ul {
+  margin: 0;
+  padding: 0;
+}
+#receta ol {
+  padding-left: 1rem;
+}
+
+/* Section Subscribe */
+#subscribe {
+  background-color: var(--bg-subscribe);
+
+  margin-top: 5rem;
+  padding: 10rem 0;
+}
+
